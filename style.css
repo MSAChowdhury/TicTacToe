@@ -49,3 +49,17 @@ table tr td:last-child {
   color:rgb(231, 212, 40);
   font-size: 2em;
 }
+@media screen and (max-width: 600px) {
+	body button {
+		position: absolute; 
+		left: 45%; 
+		top: 55%
+	}
+  }
+	body button {
+		position: absolute; 
+		left: 48%; 
+		top: 65%
+	}
+  
+  
