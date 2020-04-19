@@ -78,7 +78,7 @@ function bestspot() {
 function checktie() {
 	if (emptysquares().length == 0) {
 		for (var i = 0; i < cells.length; i++) {
-			cells[i].style.backgroundColor = "green";
+			cells[i].style.backgroundColor = "aqua";
 			cells[i].removeEventListener('click', turnclick, false);
 		}
 		declarewinner("Tie Game!")
